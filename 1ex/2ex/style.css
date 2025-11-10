@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
+  background-color: white;
 }
 
 .gallery-section {
@@ -10,7 +10,7 @@ body {
 }
 
 .quote {
-  color: #007a3d;
+  color: green;
   font-style: italic;
   margin-bottom: 5px;
 }
@@ -91,3 +91,4 @@ body {
 .btn-schedule:hover {
   background-color: #007a3d;
 }
+
