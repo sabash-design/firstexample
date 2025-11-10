@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  background-color: white;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h3 {
+  color: green;
+  text-align: center;
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color:black;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+h1 span {
+  color: green;
+  
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.booking-form {
+  background-color: white;
+  border-style: solid;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.booking-form h2 {
+  color: green;
+  margin-bottom: 15px;
+  font-family: "Comic Sans MS", cursive;
+}
+
+.booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid white;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.booking-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.booking-form button:hover {
+  background-color: green;
+}
+
+.contact-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-info h3 {
+  color: green;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.info p {
+  line-height: 1.5;
+}
+.fform{
+    color: green;
+    text-align: left-center;
+
+}
+.uss{
+    color: green;
+    text-align: right;
+}

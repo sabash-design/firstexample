@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.top-bar {
+  background-color: #003b1f;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 40px;
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.contact-info span {
+  margin-left: 15px;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eaf5ee;
+  padding: 10px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: palevioletred;
+}
+
+.book-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: green;
+}
+
+
+.about-banner {
+  background:green;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+  border-radius: 40px;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.about-banner h1 {
+  font-size: 44px;
+  letter-spacing: auto;
+}
